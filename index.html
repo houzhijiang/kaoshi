@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>杨佳佳的个人博客</title>
-    <!-- 引入外部CSS样式文件 -->
+    <title>杨佳佳的个人博客 | 数据科学与大数据技术</title>
     <link rel="stylesheet" href="style.css">
-    <!-- 引入图标库 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -14,15 +12,21 @@
         <!-- 头部区域 -->
         <header class="blog-header fade-in">
             <div class="avatar">
-                <img src="https://picsum.photos/200/200" alt="杨佳佳头像">
+                <img src="https://picsum.photos/seed/yangjiajia/200/200" alt="杨佳佳头像">
             </div>
             <h1>杨佳佳</h1>
-            <p>数据科学与大数据技术 | 记录学习与成长</p>
+            <p>数据科学与大数据技术 | 持续学习 · 热爱分享</p>
+            <div class="header-tags fade-in delay-1">
+                <span class="tag">Python</span>
+                <span class="tag">大数据分析</span>
+                <span class="tag">数据可视化</span>
+                <span class="tag">机器学习入门</span>
+            </div>
         </header>
 
-        <!-- 个人信息区域 -->
+        <!-- 个人信息核心区域 -->
         <section class="info-section fade-in delay-1">
-            <h2 class="info-title">我的个人信息</h2>
+            <h2 class="info-title">基本信息</h2>
             <div class="info-card">
                 <div class="info-item fade-in delay-2">
                     <h3><i class="fas fa-user"></i> 姓名</h3>
@@ -44,20 +48,148 @@
                     <h3><i class="fas fa-users"></i> 班级</h3>
                     <p>1班</p>
                 </div>
-                 <div class="info-item fade-in delay-6">
+                <div class="info-item fade-in delay-5">
+                    <h3><i class="fas fa-envelope"></i> 联系</h3>
+                    <p>yjj_study@example.com</p>
+                </div>
+                <div class="info-item fade-in delay-6">
                     <h3><i class="fas fa-users"></i> 学号</h3>
                     <p>23170401039</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- 学习经历板块 -->
+        <section class="study-section fade-in delay-2">
+            <h2 class="info-title">学习经历</h2>
+            <div class="timeline fade-in delay-3">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2022 - 至今 | 本科在读</h4>
+                        <p>贵州中医药大学时珍学院 数据科学与大数据技术专业</p>
+                        <p class="timeline-desc">主修课程：Python编程、数据结构、数据库原理、大数据处理技术、机器学习、数据可视化、统计学、中医药信息学等</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2023 - 2024 | 专业实践</h4>
+                        <p>校内大数据分析实验室 助理</p>
+                        <p class="timeline-desc">参与中医药数据清洗与可视化项目，使用Pandas处理中药材产地数据，用Matplotlib制作可视化报表</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2024 | 技能提升</h4>
+                        <p>大数据相关证书培训</p>
+                        <p class="timeline-desc">完成Python大数据分析工程师培训，掌握Hadoop基础、Spark入门及数据挖掘常用算法</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技能展示板块 -->
+        <section class="skills-section fade-in delay-3">
+            <h2 class="info-title">技能掌握</h2>
+            <div class="skills-card fade-in delay-4">
+                <div class="skill-item">
+                    <h3><i class="fab fa-python"></i> 编程语言</h3>
+                    <div class="skill-bar">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-progress" style="width: 85%;">85%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">SQL</span>
+                        <div class="skill-progress" style="width: 75%;">75%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Java（基础）</span>
+                        <div class="skill-progress" style="width: 40%;">40%</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fas fa-database"></i> 大数据工具</h3>
+                    <div class="skill-bar">
+                        <span class="skill-name">Pandas/Numpy</span>
+                        <div class="skill-progress" style="width: 80%;">80%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Hadoop/Spark（入门）</span>
+                        <div class="skill-progress" style="width: 50%;">50%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">MySQL/Hive</span>
+                        <div class="skill-progress" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fas fa-chart-line"></i> 数据可视化</h3>
+                    <div class="skill-bar">
+                        <span class="skill-name">Matplotlib/Seaborn</span>
+                        <div class="skill-progress" style="width: 80%;">80%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Tableau（入门）</span>
+                        <div class="skill-progress" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 个人感悟板块 -->
+        <section class="thoughts-section fade-in delay-4">
+            <h2 class="info-title">个人感悟</h2>
+            <div class="thoughts-card fade-in delay-5">
+                <blockquote>
+                    <i class="fas fa-quote-left"></i>
+                    作为数据科学与大数据技术专业的学生，我始终相信数据的价值在于挖掘和应用。中医药是中华瑰宝，将大数据技术与中医药结合，既能发挥专业优势，也能为中医药现代化贡献一份力量。
+                    学习路上虽有挑战，但我始终保持好奇心和求知欲，坚持理论与实践结合，不断提升自己的技术能力。未来希望能深耕中医药大数据领域，用数据解决实际问题。
+                    <i class="fas fa-quote-right"></i>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- 博客动态板块 -->
+        <section class="posts-section fade-in delay-5">
+            <h2 class="info-title">近期学习笔记</h2>
+            <div class="posts-card fade-in delay-1">
+                <div class="post-item">
+                    <h3><i class="fas fa-file-alt"></i> Pandas数据清洗实战：中药材产地数据处理</h3>
+                    <p class="post-date">发布时间：2024-11-15</p>
+                    <p class="post-desc">记录了使用Pandas处理中药材产地异构数据的过程，包括缺失值填充、数据标准化、异常值检测等技巧...</p>
+                    <a href="#" class="post-link">阅读全文 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="post-item">
+                    <h3><i class="fas fa-file-alt"></i> 数据可视化实践：中医药销量趋势分析</h3>
+                    <p class="post-date">发布时间：2024-10-28</p>
+                    <p class="post-desc">使用Matplotlib制作多维度可视化图表，分析不同季节中药材销量变化规律，结合统计学方法验证趋势显著性...</p>
+                    <a href="#" class="post-link">阅读全文 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="post-item">
+                    <h3><i class="fas fa-file-alt"></i> Spark入门：分布式处理中医药处方数据</h3>
+                    <p class="post-date">发布时间：2024-09-20</p>
+                    <p class="post-desc">学习Spark的核心概念，尝试用Spark Core处理大规模中医药处方数据，对比单机与分布式处理的效率差异...</p>
+                    <a href="#" class="post-link">阅读全文 <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </section>
 
         <!-- 页脚 -->
         <footer class="blog-footer fade-in delay-5">
-            <p>© 2025 杨佳佳的个人博客 | 数据科学与大数据技术学习分享</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-csdn"></i></a>
+                <a href="#"><i class="fab fa-bilibili"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>© 2025 杨佳佳的个人博客 | 数据科学与大数据技术 × 中医药信息学</p>
+            <p class="footer-copyright">本站所有内容仅用于学习交流，禁止商用</p>
         </footer>
     </div>
 
-    <!-- 引入外部JS交互文件 -->
     <script src="script.js"></script>
 </body>
 </html>
